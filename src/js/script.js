@@ -1,5 +1,3 @@
-const { TRUE } = require("sass");
-
 $(document).ready(function(){
     $('.slider__inner').slick({
         speed: 1200,
@@ -12,8 +10,8 @@ $(document).ready(function(){
             {
                 breakpoint: 992,
                 settings: {
-                    dots: true,
-                    arrows: false
+                dots: true,
+                arrows: false
                 }
             }
         ]
