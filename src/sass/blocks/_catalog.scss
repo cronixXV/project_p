@@ -81,8 +81,11 @@
             text-decoration: underline;
             text-align: center;
             text-transform: uppercase;
+            transition: 0.5s all;
             &:hover {
                 color: #C70101;
+                box-shadow: 2px 2px 10px red;
+                border: none;
             }
             
         }
@@ -166,9 +169,12 @@
             font-weight: 500;
             text-decoration: underline;
             text-transform: uppercase;
+            transition: 0.5s all;
             &:hover {
                 color: #C70101 ;
+                box-shadow: 2px 2px 10px red;
+                border: none;
+                }
             }
         }
     }
-}

@@ -50,6 +50,11 @@
             color: #fff;
             text-transform: uppercase;
             text-decoration: underline;
+            transition: 0.5 all;
+            &:hover {
+                box-shadow: 2px 2px 10px green;
+                border: none;
+            }
         }
     }
 }
