@@ -29,4 +29,24 @@
             text-decoration: underline;
         }
     }
+    &__icon {
+        &_animated {
+            animation: heartbeat 3s ease infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+        &_run {
+            animation: run 3s ease-in infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+        &_cup {
+            animation: cup 3s ease-in infinite;
+            &:hover{
+                animation-play-state: paused;
+            }
+        }
+    }
 }
